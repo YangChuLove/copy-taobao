@@ -1,0 +1,384 @@
+body .homePage p, body .homePage ul, body .homePage li {
+    padding: 0;
+    margin: 0;
+}
+body .homePage a {
+    text-decoration: none;
+}
+body .homePage li {
+    list-style: none;
+}
+/*.clearfix:before,.clearfix:after{display:table;content:"";}
+    .clearfix:after{clear:both;}
+    .clearfix{*zoom:1}*/
+body .homePage .phoneHead {
+    background-color: #ae3903;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+body .homePage .phoneHead div {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+}
+body .homePage .phoneHead div img {
+    margin-left: 0.1rem;
+}
+body .homePage .phoneHead div:nth-child(1) {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+}
+body .homePage .phoneHead div:nth-child(2) {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: row-reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+}
+body .homePage header {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #ff5105;
+    padding-bottom: 15px;
+}
+body .homePage header .scan, body .homePage header .message {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    padding: 10px 0 0 0;
+}
+body .homePage header .scan img, body .homePage header .message img {
+    width: 55px;
+    height: 55px;
+    display: block;
+    margin: auto;
+}
+body .homePage header .scan p, body .homePage header .message p {
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+body .homePage header .message{
+    position: relative;
+}
+body .homePage header .message img:nth-child(2){
+    width: 35px;
+    height:35px;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
+body .homePage header .search {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 3.3;
+    -webkit-flex: 3.3;
+        -ms-flex: 3.3;
+            flex: 3.3;
+    padding: 30px 0 0 0;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ffffff;
+}
+body .homePage header .search div:nth-child(1) {
+    -webkit-box-flex: 10;
+    -webkit-flex: 10;
+        -ms-flex: 10;
+            flex: 10;
+    height: 10px;
+    width: 3px;
+    display: inline;
+    border-left: 2px solid #ffffff;
+    margin-top: 40px;
+}
+body .homePage header .search div:nth-child(5) {
+    -webkit-box-flex: 10;
+    -webkit-flex: 10;
+        -ms-flex: 10;
+            flex: 10;
+    height: 10px;
+    width: 3px;
+    display: inline;
+    margin-top: 40px;
+    border-right: 2px solid #ffffff;
+}
+body .homePage header .search img:nth-child(2) {
+    -webkit-box-flex: 35;
+    -webkit-flex: 35;
+        -ms-flex: 35;
+            flex: 35;
+    height: 35px;
+}
+body .homePage header .search img:nth-child(4) {
+    -webkit-box-flex: 35;
+    -webkit-flex: 35;
+        -ms-flex: 35;
+            flex: 35;
+    height: 35px;
+}
+body .homePage header .search input {
+    -webkit-box-flex: 344;
+    -webkit-flex: 344;
+        -ms-flex: 344;
+            flex: 344;
+    height: 35px;
+    outline: none;
+    border: none;
+    color: #fff7f8;
+    background-color: #ff5105;
+    font-size: 32px;
+    line-height: 35px;
+}
+body .homePage .figure img{
+    width: 100%;
+}
+body .homePage .entrance{
+    padding: 0.06rem 0;
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+body .homePage .entrance li{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack:center;
+    -webkit-justify-content:center;
+        -ms-flex-pack:center;
+            justify-content:center;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+}
+body .homePage .entrance li img{
+    display: block;
+}
+body .homePage .entrance li p{
+    font-size: 0.24rem;
+    color:#909090;
+    text-align: center;
+    line-height: 0.35rem;
+}
+body .homePage .news{
+    padding: 0.2rem 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+body .homePage .news img{
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    padding: 0 0.33rem;
+    height: 0.93rem;
+}
+body .homePage .news .list{
+    -webkit-box-flex: 5;
+    -webkit-flex: 5;
+        -ms-flex: 5;
+            flex: 5;
+    border-left: 1px solid #dfdfdf;
+}
+body .homePage .news .list p {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height:0.4rem;
+}
+body .homePage .news .list span:nth-child(1){
+    font-size: 0.2rem;
+    margin: 0 0.2rem;
+    text-align: center;
+    border: 1px solid #d90c00;
+    color: #d90c00;
+}
+body .homePage .news .list span:nth-child(2){
+    font-size: 0.27rem;
+}
+body .homePage .bg{
+    height:0.14rem;
+    border-top: 1px solid #e3e3e3;
+    background-color: #f3f3f3;
+}
+body .homePage .area1{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+body .homePage .area1 .area1-1{
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+}
+body .homePage .area1 .area1-1 div:nth-child(1) P:nth-child(1) span {
+    color: #d90c00;
+}
+body .homePage .area1 .area1-2{
+    border-bottom: 1px solid #e4e4e4;
+}
+body .homePage .area1 .area1-2 div:nth-child(1) P:nth-child(1) span {
+    color: #00cbff;
+}
+body .homePage .area1 .area1-3 div:nth-child(1) P:nth-child(1) span {
+    color: #db4761;
+}
+body .homePage .area1 .area1-4{
+    border-left: 1px solid #e4e4e4;
+}
+body .homePage .area1 .area1-4 div:nth-child(1) P:nth-child(1) span {
+    color: #d53e61;
+}
+body .homePage .area1 .area1-1, body .homePage .area1 .area1-2, body .homePage .area1 .area1-3, body .homePage .area1 .area1-4{
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0.15rem 0.3rem;
+}
+body .homePage .area1 .area1-1 div:nth-child(1), body .homePage .area1 .area1-2 div:nth-child(1), body .homePage .area1 .area1-3 div:nth-child(1), body .homePage .area1 .area1-4 div:nth-child(1){
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+}
+body .homePage .area1 .area1-1 div:nth-child(1) P:nth-child(1), body .homePage .area1 .area1-2 div:nth-child(1) P:nth-child(1), body .homePage .area1 .area1-3 div:nth-child(1) P:nth-child(1), body .homePage .area1 .area1-4 div:nth-child(1) P:nth-child(1) {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+body .homePage .area1 .area1-1 div:nth-child(1) P:nth-child(1) span, body .homePage .area1 .area1-2 div:nth-child(1) P:nth-child(1) span, body .homePage .area1 .area1-3 div:nth-child(1) P:nth-child(1) span, body .homePage .area1 .area1-4 div:nth-child(1) P:nth-child(1) span {
+    font-size: 0.3rem;
+    padding-left: 0.1rem;
+}
+body .homePage .area1 .area1-1 div:nth-child(1) p:nth-child(2), body .homePage .area1 .area1-2 div:nth-child(1) p:nth-child(2), body .homePage .area1 .area1-3 div:nth-child(1) p:nth-child(2), body .homePage .area1 .area1-4 div:nth-child(1) p:nth-child(2) {
+    font-size: 0.24rem;
+    line-height: 0.34rem;
+    color: #757575;
+}
+body .homePage .area1 .area1-1 div:nth-child(1) div, body .homePage .area1 .area1-2 div:nth-child(1) div, body .homePage .area1 .area1-3 div:nth-child(1) div, body .homePage .area1 .area1-4 div:nth-child(1) div{
+    padding: 0.2rem 0.3rem 0 0.3rem;
+}
+body .homePage .area1 .area1-1 div:nth-child(2), body .homePage .area1 .area1-2 div:nth-child(2), body .homePage .area1 .area1-3 div:nth-child(2), body .homePage .area1 .area1-4 div:nth-child(2){
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    padding-top: 0.2rem;
+}
+body .homePage .area2 .title1{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0.25rem;
+}
+body .homePage .area2 .title1 span{
+    line-height: 0.4rem;
+    text-align: center;
+    font-size: 0.3rem;
+    color: #d90c00;
+}
+body .homePage .area2 .area2-1{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    border-top: 1px solid #909090;
+}
+body .homePage .area2 .area2-1 img{
+    display: block;
+    padding: 0.15rem 0.1rem;
+    border-left: 1px solid #909090;
+}
+body .homePage .area2 .area2-1 img:nth-child(1){
+    -webkit-box-flex: 1.8;
+    -webkit-flex: 1.8;
+        -ms-flex: 1.8;
+            flex: 1.8;
+    border: none;
+}
+body .homePage .area2 .area2-1 img:nth-child(2), body .homePage .area2 .area2-1 img:nth-child(3), body .homePage .area2 .area2-1 img:nth-child(4){
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+}
+body .homePage footer{
+    width: 100%;
+    padding: 20px 0;
+    background-color: #ffffff;
+    border-top: 1px solid #909090;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+body .homePage footer div{
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+body .homePage footer div img{
+    display: block;
+    margin: auto;
+}
+body .homePage footer div p{
+    font-size: 28px;
+    color: #3a3e3d;
+    line-height: 45px;
+    text-align: center;
+}

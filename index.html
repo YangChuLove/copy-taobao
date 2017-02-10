@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>手机淘宝首页Flex布局练习</title>
+    <link href="./css/style.css" rel="stylesheet" type="text/css">
+    <script>
+        (function () {
+            function changeRootFont() {
+                // 750 后续再弄 方便同学们计算
+                var designWidth = 750, rem2px = 100;
+                var deviceWidth = window.innerWidth;
+                if ( deviceWidth < 750 ) {
+                    document.documentElement.style.fontSize =
+                            ((window.innerWidth / designWidth) * rem2px) + 'px';
+                } else {
+                    document.documentElement.style.fontSize = '100px';
+                }
+            }
+            changeRootFont();
+            window.addEventListener('resize', changeRootFont, false);
+        })();
+    </script>
+</head>
+
+<body>
+<div class="homePage">
+    <div class="phoneHead">
+        <div>
+            <img src="img/1.jpg">
+        </div>
+        <div>
+            <img src="img/4.jpg">
+            <img src="img/3.jpg">
+            <img src="img/2.jpg">
+        </div>
+    </div>
+    <header>
+        <div class="scan">
+            <img src="img/5.jpg">
+            <p>扫一扫</p>
+        </div>
+        <div class="search">
+            <div></div>
+            <img src="img/21.jpg">
+            <input type="text" value="台灯卧室床头 创意">
+            <img src="img/22.jpg">
+            <div></div>
+        </div>
+        <div class="message">
+            <img src="img/8.jpg">
+            <img src="img/9.jpg">
+            <p>消息</p>
+        </div>
+    </header>
+    <div class="figure">
+        <img src="img/10.jpg">
+    </div>
+    <div class="entrancs">
+        <ul class="entrance">
+            <li>
+                <a href="#">
+                    <img src="img/11.jpg">
+                    <p>天猫</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="img/12.jpg">
+                    <p>聚划算</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="img/13.jpg">
+                    <p>天猫国际</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="img/14.jpg">
+                    <p>外卖</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="img/15.jpg">
+                    <p>天猫超市</p>
+                </a>
+            </li>
+        </ul>
+        <ul class="entrance">
+            <li>
+                <a href="#">
+                    <img src="img/16.jpg">
+                    <p>充值中心</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="img/17.jpg">
+                    <p>飞猪旅行</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="img/18.jpg">
+                    <p>领金币</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="img/19.jpg">
+                    <p>到家</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="img/20.jpg">
+                    <p>分类</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="news">
+        <img src="img/23.jpg">
+        <div class="list">
+            <p>
+                <span>热评</span>
+                <span>现实中的长发公主，十几年未剪头发</span>
+            </p>
+            <p>
+                <span>热议</span>
+                <span>30天不喝白开水，脸会变成什么样？</span>
+            </p>
+        </div>
+    </div>
+    <div class="bg"></div>
+    <div class="area1">
+        <div class="area1-1">
+            <div>
+                <p>
+                    <img src="img/24.jpg">
+                    <span>淘抢购</span>
+                </p>
+                <p>进入查看更多</p>
+                <div><img src="img/28.jpg"></div>
+            </div>
+            <div><img src="img/32.jpg"></div>
+        </div>
+        <div class="area1-2">
+            <div>
+                <p>
+                    <img src="img/25.jpg">
+                    <span>有好货</span>
+                </p>
+                <p>高颜值美物</p>
+                <div><img src="img/29.jpg"></div>
+            </div>
+            <div><img src="img/33.jpg"></div>
+        </div>
+    </div>
+    <div class="area1">
+        <div class="area1-3">
+            <div>
+                <p>
+                    <img src="img/26.jpg">
+                    <span>淘抢购</span>
+                </p>
+                <p>进入查看更多</p>
+                <div><img src="img/30.jpg"></div>
+            </div>
+            <div><img src="img/34.jpg"></div>
+        </div>
+        <div class="area1-4">
+            <div>
+                <p>
+                    <img src="img/27.jpg">
+                    <span>有好货</span>
+                </p>
+                <p>高颜值美物</p>
+                <div><img src="img/31.jpg"></div>
+            </div>
+            <div><img src="img/35.jpg"></div>
+        </div>
+    </div>
+    <div class="bg"></div>
+    <div class="area2">
+        <div class="title1">
+            <img src="img/36.jpg">
+            <span>超实惠</span>
+        </div>
+        <div class="area2-1">
+            <img src="img/37.jpg">
+            <img src="img/38.jpg">
+            <img src="img/38.jpg">
+            <img src="img/40.jpg">
+        </div>
+        <div class="area2-1">
+            <img src="img/41.jpg">
+            <img src="img/42.jpg">
+            <img src="img/43.jpg">
+            <img src="img/44.jpg">
+        </div>
+    </div>
+    <footer>
+        <div>
+            <a>
+                <img src="img/45.jpg">
+                <p>首页</p>
+            </a>
+        </div>
+        <div>
+            <a>
+                <img src="img/46.jpg">
+                <p>微淘</p>
+            </a>
+        </div>
+        <div>
+            <a>
+                <img src="img/47.jpg">
+                <p>问大家</p>
+            </a>
+        </div>
+        <div>
+            <a>
+                <img src="img/48.jpg">
+                <p>购物车</p>
+            </a>
+        </div>
+        <div>
+            <a>
+                <img src="img/49.jpg">
+                <p>我的淘宝</p>
+            </a>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
